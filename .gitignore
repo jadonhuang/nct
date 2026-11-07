@@ -1,0 +1,34 @@
+# Local credentials and environment configuration
+/pwd.txt
+.env
+.env.*
+!.env.example
+**/appsettings.json
+**/appsettings.*.json
+!**/appsettings.example.json
+*.pfx
+*.p12
+*.key
+
+# IDE and build output
+.vs/
+.idea/
+**/bin/
+**/obj/
+*.user
+*.suo
+**/node_modules/
+**/dist/
+**/packages/
+
+# Runtime files and local databases
+**/App_Data/
+**/wwwroot/upload/
+**/logs/
+*.log
+*.mdf
+*.ldf
+*.bak
+*.db
+*.sqlite
+*.sqlite3

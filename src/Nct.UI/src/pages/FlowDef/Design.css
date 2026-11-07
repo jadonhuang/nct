@@ -1,0 +1,335 @@
+
+
+/deep/ .main-tab> .el-tabs__header {
+  margin-bottom: 0px;
+}
+
+/deep/ .main-tab .el-tabs__nav-wrap::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0px;
+  background-color: #fff;
+  z-index: 1;
+}
+
+
+.edit-form {
+    max-height: calc(100vh - 273px);
+    overflow: auto;
+    scrollbar-color: #e5e5e5 #f7f7f9;
+    scrollbar-width: thin;
+}
+
+   /deep/ .edit-form .el-form-item {
+        margin-bottom: 10px;
+        padding-right: 15px;
+    }
+
+/deep/ .edit-form .el-form-item__content {
+  line-height: 30px;
+}
+
+/deep/ .edit-form .el-form-item__label {
+  line-height: 30px;
+  padding-left: 15px;
+  padding-right: 8px;
+}
+
+
+
+.el-upload--picture-card {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+}
+
+
+
+
+
+.item-btn-area button:hover {
+    color: #2672ff;
+}
+
+
+/deep/ .el-rate__text, .el-input--small, /deep/ .el-form-item__label, /deep/ .el-form-item__content, /deep/ .el-input, /deep/ .el-cascader-panel, /deep/ .el-radio, /deep/ .el-radio__label, /deep/ .el-radio__label, /deep/ .el-checkbox__label, /deep/ .el-link, /deep/ .el-switch__label *, /deep/ .el-select-dropdown__item {
+  font-size: 12px;
+}
+
+
+
+/deep/ .el-input--small, .el-form-item__label, .el-form-item__content {
+  font-size: 12px;
+}
+
+
+
+
+
+
+/deep/ .main-tab> .el-tabs__content {
+    padding: 0;
+}
+
+/deep/ .main-tab > .el-tabs__header .el-tabs__nav-scroll {
+    text-align: center;
+}
+
+/deep/ .main-tab > .el-tabs__header .el-tabs__item.is-active {
+  border: 0;
+}
+
+
+/deep/ .main-tab > .el-tabs__header .el-tabs__item {
+  transition: none;
+}
+
+
+
+/deep/ .main-tab > .el-tabs__header {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  z-index: 999;
+}
+
+
+
+  /deep/ .main-tab > .el-tabs__header .el-tabs__nav {
+    float: none;
+  }
+
+/deep/ .main-tab > .el-tabs__header {
+  background-color: #fff;
+}
+
+  /deep/ .main-tab > .el-tabs__header .el-tabs__item.is-active {
+    border-bottom: 2px solid #409EFF;
+  }
+
+
+
+  /deep/ .main-tab > .el-tabs__header .el-tabs__active-bar {
+    display: none;
+  }
+
+
+
+.work-area {
+     height:100%;
+    overflow: hidden;
+    padding: 0;
+
+}
+
+/deep/ .main  .el-tab-pane {
+  height: 100% !important;
+}
+
+.main-tab {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+}
+/deep/ .main-tab> .el-tabs__content {
+  flex: 1;
+  box-sizing: border-box;
+}
+
+
+
+
+
+.item-prop-holder .el-card {
+    background-color: transparent;
+}
+
+
+
+
+.el-table--mini .el-table__cell {
+    padding: 3px 0;
+}
+
+.el-table__header th {
+    line-height: 30px;
+}
+
+.form-holder {
+    padding: 20px;
+    overflow: auto;
+}
+
+.footer {
+    height: 40px !important;
+    background-color: rgb(245, 245, 249);
+    padding: 6px;
+    vertical-align: central;
+}
+
+
+
+
+.item-prop-card {
+    border-radius: 0;
+    overflow: auto;
+    border: solid 0px red;
+}
+
+  /deep/  .item-prop-card .el-card__body {
+        padding: 0;
+       
+    }
+
+
+
+.form-set-left {
+    padding: 15px;
+    width: 300px !important;
+    background-color: #f5f5f9;
+    height: 100%;
+}
+
+
+
+
+/deep/ .audit-type label {
+    margin-bottom: 5px;
+}
+
+
+
+/deep/ .edit-form .el-input-number--small {
+    width: 100% ;
+}
+
+
+.item-prop-holder {
+    overflow: hidden;
+    border: 1px solid #EBEEF5;
+    border-top: 0px;
+    border-bottom: 0px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    z-index: 99;
+}
+
+
+
+
+
+
+
+
+.main-area {
+    background-color: rgb(245, 245, 249);
+    display:flex;
+    flex-direction:column;
+    padding:0px !important;
+    position:relative;
+    
+}
+
+
+
+.item-area .el-input-group__append {
+  font-size:14px;
+
+}
+
+
+.btn-area {
+    text-align: left;
+    padding: 15px 10px 10px 0px;
+
+}
+
+/deep/ .btn-area .el-button {
+  font-size: 12px;
+}
+
+.audit-cmd {
+
+  margin-bottom:3px;
+}
+
+/deep/ .audit-cmd .el-button--mini {
+    padding: 6px 5px;
+}
+
+.prop-tab {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+}
+
+
+    .prop-tab > .prop-tab-title {
+        width: 100%;
+        box-sizing: border-box;
+        height: 40px;
+        line-height: 40px;
+        text-align: left;
+        padding-left:20px;
+        font-size:14px;
+    }
+
+      
+
+
+/deep/ .item-prop-card .el-card__header {
+
+   padding:0;
+ 
+}
+
+.item-prop-head {
+    display: flex;
+    align-items: center;
+    padding-left:10px;
+    height:40px;
+   
+}
+
+
+.el-radio-button--small .el-radio-button__inner {
+
+    padding:7px 7px;
+   
+}
+
+
+
+ .edit-form {
+  padding-bottom:10px;
+  padding-top:10px;
+
+}
+
+
+.fl-container {
+    flex:1;
+    overflow:hidden;
+}
+
+.fl-tool-holder {
+    position: absolute;
+    width: auto;
+    left: 10px;
+    top: 10px;
+    display: flex;
+    border: solid 1px #Eee;
+    border-radius: 5px;
+    background-color: #fff;
+    padding-left: 10px;
+    z-index: 99;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/deep/ .fl-container foreignObject {
+    overflow: visible !important;
+}

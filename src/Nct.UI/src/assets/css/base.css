@@ -1,0 +1,409 @@
+
+body {
+
+  font-size: 12px;
+
+}
+
+
+.nct-list-table th {
+  padding: 8px 0 !important;
+  background-color: #fafafa !important;
+}
+
+.table .el-table__header th {
+  background-color: #fafafa !important;
+  line-height: 23px;
+}
+
+.nct-list-table {
+  /*min-height: 400px;*/
+}
+
+.el-input__validateIcon {
+    display: none;
+}
+
+.el-pagination {
+  /*  background-color: #ebedf2;*/
+  text-align: right;
+  border: 1px solid #EBEEF5;
+  background-color: #fff;
+  border-top: 0px;
+  padding: 8px;
+}
+
+
+.avatar-uploader .el-upload {
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+  .avatar-uploader .el-upload:hover {
+    border-color: #20a0ff;
+  }
+
+.avatar-uploader-icon {
+  font-size: 28px;
+  color: #8c939d;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  display: block;
+}
+
+.nct-cmd-area {
+  background-color: #fff;
+  border: 1px solid #ebeef5;
+  padding: 15px 15px 0px 15px;
+  display: flex;
+  flex-direction: column;
+  border-bottom-width:0;
+}
+
+
+
+  .nct-search > .el-col {
+    padding: 0 10px 15px 0;
+    display: flex;
+    align-items: center;
+  }
+
+    .nct-search > .el-col > label {
+      width: 80px;
+      overflow: hidden;
+      text-align: right;
+    }
+
+      .nct-search > .el-col > label ~ * {
+        flex: 1;
+      }
+
+.nct-list-table {
+  width: 100%;
+  flex: 1;
+}
+
+.nct-work-area {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-width: 500px;
+  overflow: auto;
+  padding:10px;
+}
+
+.nct-toolbar {
+
+    padding-bottom:15px;
+
+}
+
+
+
+.nct-tab {
+  height: 40px;
+  line-height: 40px;
+  background-color: #fff;
+  width: 100%;
+  padding-left: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.15);
+  z-index: 99;
+  display: flex;
+}
+
+  .nct-tab .left {
+    flex: 1;
+    overflow-x:auto;
+    overflow-y:hidden;
+  }
+
+  .nct-tab .right {
+    width: 50px;
+    text-align: center;
+  }
+
+  .nct-tab .el-tabs__nav .el-tabs__item:nth-child(2) .el-icon-close {
+    display: none;
+  }
+
+
+  .nct-tab .el-tabs__new-tab {
+    display: none;
+    border: 1px solid red;
+  }
+
+
+  .nct-tab .el-tabs__content {
+    display: none;
+  }
+
+
+
+  .nct-tab .el-tabs__header {
+    margin: 0;
+  }
+
+
+  .nct-tab .el-tabs__item:not(.is-active) .el-icon-close {
+    visibility: hidden;
+  }
+
+
+  .nct-tab .el-tabs__item:hover .el-icon-close {
+    visibility: visible;
+  }
+
+
+
+  .nct-tab .el-tabs__nav-wrap::after {
+    height: 0px;
+  }
+
+  .nct-tab .el-tabs__item {
+    padding: 0 20px !important;
+    font-size: 13px !important;
+  }
+
+
+  .nct-tab .el-tabs__header .el-tabs__item.is-active {
+    border-bottom: 2px solid #409EFF;
+  }
+
+
+
+  .nct-tab .el-tabs__header .el-tabs__active-bar {
+    display: none;
+  }
+
+
+.el-dropdown-menu__item {
+  font-size: 12px !important;
+  line-height: 28px !important;
+}
+.nct-toolbar .right-tool {
+  float:right;
+  margin-right: 10px;
+}
+
+.el-dialog__footer {
+  padding: 10px 16px;
+  box-sizing: border-box;
+  border-top: 1px solid #f0f0f0;
+}
+
+
+.el-table-column--selection .cell {
+  padding-left:10px;
+
+}
+.search-btn-area {
+    padding-left:30px !important;
+
+}
+
+/*表格编辑*/
+
+.edit-table th  {
+  background-color: #fafafa !important;
+
+}
+
+
+
+td.edit-cell {
+  padding: 0px !important;
+}
+th.edit-cell {
+  padding: 3px 8px !important;
+
+}
+td.edit-cell .cell {
+  padding: 0px !important;
+}
+
+th.edit-cell .cell {
+  padding: 0px !important;
+}
+
+  .edit-cell .el-input__inner {
+    border: 0px !important;
+    border-radius: 0;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 10px !important;
+  }
+
+.cell-text {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.edit-cell-holder {
+  height: 34px;
+  line-height: 34px;
+  vertical-align: central;
+}
+
+.edit-cell .el-input-number--mini {
+  width: 100% !important;
+}
+
+.edit-cell .el-input-number {
+  width: 100% !important;
+}
+
+/*表格编辑*/
+
+
+.nct-hastree-container {
+    height:100%;
+    padding:10px;
+}
+
+
+.nct-hasnotree-container {
+  height: 100%;
+  padding: 0px;
+}
+
+
+
+  .nct-hastree-container  .nct-work-area {
+     padding:0 0 0 10px;
+  }
+
+
+.cell .el-link {
+   font-size:12px;
+   margin-right:8px;
+
+}
+.w100 {
+  width:100% !important;
+
+}
+.item {
+
+    position:relative;
+
+}
+
+.el-upload-list__item {
+  transition: none;
+}
+
+.el-card__header {
+  padding: 14px 18px;
+}
+
+
+
+ .loading .el-icon-loading::before {
+  font-size: 40px !important;
+}
+
+
+ .el-dialog__header {
+  padding: 16px 24px;
+  min-height: 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.nct-monaco-editor {
+    height: 100%;
+    border: 1px solid #DCDFE6;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.el-table__expanded-cell {
+    padding: 20px 50px !important;
+}
+
+.highcharts-credits {
+    display: none;
+}
+.nct-dialog .el-dialog {
+    flex-direction: column;
+    display: flex;
+}
+
+.nct-dialog .el-dialog__body {
+    overflow: auto;
+    padding: 0px;
+    flex: 1;
+}
+
+
+    .nct-dialog .el-dialog__body> .el-form {
+    
+       padding:20px;
+    }
+
+.form-container {
+    background-color: #fff;
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.no-padding {
+
+  padding:0 !important;
+}
+
+.tree-card {
+
+  display:flex;
+  flex-direction:column;
+}
+
+    .tree-card .el-card__body {
+        overflow-y: auto;
+         overflow-x:hidden;
+        flex: 1;
+    }
+
+.hide {
+  
+    display:none;
+}
+
+.pop {
+    padding: 0px !important;
+}
+
+.el-popover {
+    
+    min-width:50px;
+
+}
+
+.error {
+    color: #f56c6c;
+}
+
+.success {
+    color: #67c23a;
+}
+.relative {
+   position:relative;
+
+}
+.h100 {
+    height:100%;
+
+}
+
+

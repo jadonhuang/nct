@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic/开始</title>
+    <g id="ic/开始" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="矩形" fill="#0046B9" x="2" y="2" width="16" height="16"></rect>
+        <polygon id="矩形" fill="#66A8FF" transform="translate(7.853553, 9.853553) rotate(-315.000000) translate(-7.853553, -9.853553) " points="2.85355339 6.90183993 12.8535534 4.85355339 10.8052669 14.8535534"></polygon>
+    </g>
+</svg>

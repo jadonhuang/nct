@@ -1,0 +1,132 @@
+﻿.node-wrap {
+    color: #1E2731;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+/*    cursor: move;*/
+ /*   position: relative;*/
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+    border: solid 1px rgba(0,0,0,0.1);
+    border-radius: 4px;
+
+}
+
+.node-header {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.02);
+    font-size:14px;
+}
+
+.node-img {
+    width: 40px;
+    height: 100%;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
+
+  .node-img img {
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        pointer-events: none;
+    }
+
+
+ .custom-anchor {
+    stroke: #2961ef;
+    stroke-width: 1;
+    fill: #fff;
+}
+
+ .node-text {
+    overflow: hidden;
+    flex-grow: 1;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+
+
+ .cdt {
+    position: relative;
+    line-height: 16px;
+    border-top: 1px solid rgba(0, 0, 0, 0.07);
+    color: rgb(102, 102, 102);
+    padding: 0px 11px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+ .cdt-text {
+    flex: 1;
+    flex-grow: 1;
+    padding-left: 8px;
+    padding-right: 20px;
+    text-align: left;
+    font-size: 12px;
+    color: rgb(30, 39, 49);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+ .node-error-info {
+    position: absolute;
+    left: 0px;
+    top: -18px;
+    color: orange;
+    font-size: 15px;
+    width: 16px;
+    height:16px;
+    visibility:hidden;
+    
+}
+
+    .node-error-info.has-err {
+        visibility:visible !important;
+    }
+
+
+ .node-selected {
+    border: 1px solid rgb(0, 110, 255) !important;
+   
+}
+
+
+
+.node-wrap .node-tip {
+    padding-left: 10px;
+    color:rgba(0,0,0,0.3);
+}
+
+ .node-wrap .node-item {
+    height: 40px;
+    line-height: 40px;
+}
+
+
+/deep/ .node-wrap  .editor {
+    border: none !important;
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis
+}

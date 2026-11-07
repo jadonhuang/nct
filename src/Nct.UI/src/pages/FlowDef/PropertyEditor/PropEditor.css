@@ -1,0 +1,31 @@
+.table {
+    border: 1px solid #DCDFE6;
+    border-radius: 5px;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+    .table th {
+        text-align: left;
+        padding-left: 10px;
+        font-weight: normal;
+        height:25px;
+    }
+
+    .table th,
+    .table td {
+        line-height: 25px;
+        border-right: 1px solid #DCDFE6;
+        border-bottom: 1px solid #DCDFE6;
+    }
+
+    .table tr:last-child th,
+    .table tr:last-child td {
+        border-bottom: none;
+    }
+
+    .table th:last-child,
+    .table td:last-child {
+        border-right: none;
+    }

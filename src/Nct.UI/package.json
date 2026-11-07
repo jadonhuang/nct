@@ -1,0 +1,71 @@
+{
+  "name": "admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
+    "@logicflow/core": "^2.1.2",
+    "@logicflow/extension": "^2.1.2",
+    "axios": "^0.16.2",
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.0.7",
+    "highcharts": "10.3.3",
+    "highcharts-vue": "1.4.3",
+    "monaco-editor-nls": "^2.0.0",
+    "vue": "^2.6.11",
+    "vue-demi": "^0.14.6",
+    "vue-monaco": "^1.2.2",
+    "vue-pdf": "4.3.0",
+    "vue-router": "^2.7.0",
+    "vuedraggable": "2.20.0",
+    "vuex": "^2.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.0.5",
+    "@vue/cli-plugin-eslint": "^4.0.5",
+    "@vue/cli-service": "^4.0.5",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "monaco-editor-esm-webpack-plugin": "2.1.0",
+    "monaco-editor-webpack-plugin": "^1.9.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "generator-star-spacing": "off",
+      "no-tabs": "off",
+      "no-unused-vars": "off",
+      "no-console": "off",
+      "no-undef": "off",
+      "no-irregular-whitespace": "off",
+      "no-debugger": "off",
+      "no-unreachable": "off",
+      "no-extra-boolean-cast": "off",
+      "no-empty": "off",
+      "no-inner-declarations": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
