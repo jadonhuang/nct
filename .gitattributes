@@ -1,0 +1,3 @@
+# Exclude bundled third-party libraries from GitHub language statistics.
+src/Nct.UI/public/lib/** linguist-vendored
+src/Framework/Nct.ApiJson/apijson/js/lib/** linguist-vendored
